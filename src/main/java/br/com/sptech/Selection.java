@@ -1,4 +1,3 @@
-
 public class Selection {
     public static Integer[] sort(Integer[] list) {
         for (int i = 0; i < list.length - 1; i++) {
