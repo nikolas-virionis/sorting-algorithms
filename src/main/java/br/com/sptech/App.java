@@ -9,7 +9,7 @@ public class App {
     }
 
     public static void displayAll(Integer[] list) {
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 5; i++) {
             // loop needed as the list, in this case the array, is being changed due to
             // object memory reference issues
             Integer[] array = Arrays.copyOfRange(list, 0, list.length);
@@ -25,6 +25,9 @@ public class App {
                     break;
                 case 3:
                     Merge.displaySorted(array);
+                    break;
+                case 4:
+                    Quicksort.displaySorted(array);
                     break;
                 default:
                     break;
