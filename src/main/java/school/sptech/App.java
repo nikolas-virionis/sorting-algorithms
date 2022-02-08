@@ -1,6 +1,8 @@
+package school.sptech;
+
 import java.util.Arrays;
 
-import algorithms.*;
+import school.sptech.algorithms.*;
 
 public class App {
     public static void main(String[] args) {

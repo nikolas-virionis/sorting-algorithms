@@ -1,4 +1,4 @@
-package algorithms;
+package school.sptech.algorithms;
 
 import java.util.Arrays;
 
